@@ -170,10 +170,127 @@
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
         'кнопкаи тоза кунии
-        For Each clear As Object In TabPage3.Controls
+        For Each clear As Object In TabPage4.Controls
             If TypeOf clear Is TextBox Then
                 clear.text = ""
             End If
         Next
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        Dim b1 As Double = CDbl(ss1.Text)
+        Dim b2 As Double = CDbl(ss2.Text)
+        'matrisai 1um
+        Dim a11 As Double = CDbl(u1.Text)
+        Dim a12 As Double = CDbl(u2.Text)
+        Dim a13 As Double = CDbl(u3.Text)
+        Dim a21 As Double = CDbl(u4.Text)
+        Dim a22 As Double = CDbl(u5.Text)
+        Dim a23 As Double = CDbl(u6.Text)
+        Dim a31 As Double = CDbl(u7.Text)
+        Dim a32 As Double = CDbl(u8.Text)
+        Dim a33 As Double = CDbl(u9.Text)
+        'matrisai 2um
+        Dim a41 As Double = CDbl(i1.Text)
+        Dim a42 As Double = CDbl(i2.Text)
+        Dim a43 As Double = CDbl(i3.Text)
+        Dim a51 As Double = CDbl(i4.Text)
+        Dim a52 As Double = CDbl(i5.Text)
+        Dim a53 As Double = CDbl(i6.Text)
+        Dim a61 As Double = CDbl(i7.Text)
+        Dim a62 As Double = CDbl(i8.Text)
+        Dim a63 As Double = CDbl(i9.Text)
+        Dim j1 As Double = (b1 * a11) + (b2 * a41)
+        Dim j2 As Double = (b1 * a12) + (b2 * a42)
+        Dim j3 As Double = (b1 * a13) + (b2 * a43)
+        Dim j4 As Double = (b1 * a21) + (b2 * a51)
+        Dim j5 As Double = (b1 * a22) + (b2 * a52)
+        Dim j6 As Double = (b1 * a23) + (b2 * a53)
+        Dim j7 As Double = (b1 * a31) + (b2 * a61)
+        Dim j8 As Double = (b1 * a32) + (b2 * a62)
+        Dim j9 As Double = (b1 * a33) + (b2 * a63)
+        p1.Text = j1
+        p2.Text = j2
+        p3.Text = j3
+        p4.Text = j4
+        p5.Text = j5
+        p6.Text = j6
+        p7.Text = j7
+        p8.Text = j8
+        p9.Text = j9
+    End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        'zarb
+        Dim b1 As Double = CDbl(ff1.Text)
+        Dim b2 As Double = CDbl(ff2.Text)
+        'matrisai 1um
+        Dim a11 As Double = CDbl(x1.Text)
+        Dim a12 As Double = CDbl(x2.Text)
+        Dim a13 As Double = CDbl(x3.Text)
+        Dim a21 As Double = CDbl(x4.Text)
+        Dim a22 As Double = CDbl(x5.Text)
+        Dim a23 As Double = CDbl(x6.Text)
+        Dim a31 As Double = CDbl(x7.Text)
+        Dim a32 As Double = CDbl(x8.Text)
+        Dim a33 As Double = CDbl(x9.Text)
+        'matrisai 2um
+        Dim a41 As Double = CDbl(c1.Text)
+        Dim a42 As Double = CDbl(c2.Text)
+        Dim a43 As Double = CDbl(c3.Text)
+        Dim a51 As Double = CDbl(c4.Text)
+        Dim a52 As Double = CDbl(c5.Text)
+        Dim a53 As Double = CDbl(c6.Text)
+        Dim a61 As Double = CDbl(c7.Text)
+        Dim a62 As Double = CDbl(c8.Text)
+        Dim a63 As Double = CDbl(c9.Text)
+        'javobho
+        Dim j1 As Double = (b1 * a11) - (b2 * a41)
+        Dim j2 As Double = (b1 * a12) - (b2 * a42)
+        Dim j3 As Double = (b1 * a13) - (b2 * a43)
+        Dim j4 As Double = (b1 * a21) - (b2 * a51)
+        Dim j5 As Double = (b1 * a22) - (b2 * a52)
+        Dim j6 As Double = (b1 * a23) - (b2 * a53)
+        Dim j7 As Double = (b1 * a31) - (b2 * a61)
+        Dim j8 As Double = (b1 * a32) - (b2 * a62)
+        Dim j9 As Double = (b1 * a33) - (b2 * a63)
+        jj1.Text = j1
+        jj2.Text = j2
+        jj3.Text = j3
+        jj4.Text = j4
+        jj5.Text = j5
+        jj6.Text = j6
+        jj7.Text = j7
+        jj8.Text = j8
+        jj9.Text = j9
+
+    End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+        'кнопкаи тоза кунии
+        For Each clear As Object In TabPage1.Controls
+            If TypeOf clear Is TextBox Then
+                clear.text = ""
+            End If
+        Next
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        'кнопкаи тоза кунии
+        For Each clear As Object In TabPage5.Controls
+            If TypeOf clear Is TextBox Then
+                clear.text = ""
+            End If
+        Next
+    End Sub
+
+    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+        Me.Hide()
+        Form3.Show()
+    End Sub
+
+    Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
+        Me.Hide()
+        Form3.Show()
     End Sub
 End Class

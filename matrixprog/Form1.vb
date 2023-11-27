@@ -184,6 +184,8 @@ Public Class Form1
     End Sub
 
 
+
+
     'Private Sub a1_Validating(sender As Object, e As CancelEventArgs) Handles a1.Validating
     '    If String.IsNullOrEmpty(a1.Text.Trim) Then
     '        ErrorProvider1.SetError(a1, "не заполнено")

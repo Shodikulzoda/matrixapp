@@ -25,6 +25,7 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         TabControl1 = New TabControl()
         TabPage1 = New TabPage()
+        Label7 = New Label()
         a4 = New TextBox()
         a3 = New TextBox()
         Button6 = New Button()
@@ -32,7 +33,6 @@ Partial Class Form1
         Button1 = New Button()
         a1 = New TextBox()
         Button4 = New Button()
-        Label4 = New Label()
         Label1 = New Label()
         TabPage2 = New TabPage()
         Button7 = New Button()
@@ -83,15 +83,15 @@ Partial Class Form1
         TabControl1.Controls.Add(TabPage2)
         TabControl1.Controls.Add(TabPage3)
         TabControl1.Location = New Point(0, 0)
-        TabControl1.MaximumSize = New Size(467, 497)
-        TabControl1.MinimumSize = New Size(467, 497)
+        TabControl1.MinimumSize = New Size(458, 497)
         TabControl1.Name = "TabControl1"
         TabControl1.SelectedIndex = 0
-        TabControl1.Size = New Size(467, 497)
+        TabControl1.Size = New Size(458, 497)
         TabControl1.TabIndex = 0
         ' 
         ' TabPage1
         ' 
+        TabPage1.Controls.Add(Label7)
         TabPage1.Controls.Add(a4)
         TabPage1.Controls.Add(a3)
         TabPage1.Controls.Add(Button6)
@@ -99,15 +99,24 @@ Partial Class Form1
         TabPage1.Controls.Add(Button1)
         TabPage1.Controls.Add(a1)
         TabPage1.Controls.Add(Button4)
-        TabPage1.Controls.Add(Label4)
         TabPage1.Controls.Add(Label1)
         TabPage1.Location = New Point(4, 29)
         TabPage1.Name = "TabPage1"
         TabPage1.Padding = New Padding(3)
         TabPage1.Size = New Size(459, 464)
         TabPage1.TabIndex = 0
-        TabPage1.Text = "Матрисаи 2х2"
+        TabPage1.Text = "Матрица 2х2"
         TabPage1.UseVisualStyleBackColor = True
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Font = New Font("Segoe UI", 12F)
+        Label7.Location = New Point(95, 90)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(68, 28)
+        Label7.TabIndex = 18
+        Label7.Text = "Ответ:"
         ' 
         ' a4
         ' 
@@ -144,7 +153,7 @@ Partial Class Form1
         ' 
         ' Button1
         ' 
-        Button1.Font = New Font("Segoe UI", 15F)
+        Button1.Font = New Font("Segoe UI", 12F)
         Button1.Location = New Point(241, 279)
         Button1.Name = "Button1"
         Button1.Size = New Size(62, 43)
@@ -170,24 +179,15 @@ Partial Class Form1
         Button4.Text = "Главный"
         Button4.UseVisualStyleBackColor = True
         ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 12F)
-        Label4.Location = New Point(71, 88)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(75, 28)
-        Label4.TabIndex = 7
-        Label4.Text = "Ҷавоб:"
-        ' 
         ' Label1
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 12F)
         Label1.Location = New Point(169, 90)
         Label1.Name = "Label1"
-        Label1.Size = New Size(0, 28)
+        Label1.Size = New Size(23, 28)
         Label1.TabIndex = 0
+        Label1.Text = "0"
         ' 
         ' TabPage2
         ' 
@@ -210,7 +210,7 @@ Partial Class Form1
         TabPage2.Padding = New Padding(3)
         TabPage2.Size = New Size(459, 464)
         TabPage2.TabIndex = 1
-        TabPage2.Text = "Матрисаи 3х3"
+        TabPage2.Text = "Матрица 3х3"
         TabPage2.UseVisualStyleBackColor = True
         ' 
         ' Button7
@@ -249,12 +249,13 @@ Partial Class Form1
         Label2.Font = New Font("Segoe UI", 12F)
         Label2.Location = New Point(146, 71)
         Label2.Name = "Label2"
-        Label2.Size = New Size(0, 28)
+        Label2.Size = New Size(23, 28)
         Label2.TabIndex = 10
+        Label2.Text = "0"
         ' 
         ' Button2
         ' 
-        Button2.Font = New Font("Segoe UI", 15F)
+        Button2.Font = New Font("Segoe UI", 12F)
         Button2.Location = New Point(247, 344)
         Button2.Name = "Button2"
         Button2.Size = New Size(85, 40)
@@ -361,15 +362,15 @@ Partial Class Form1
         TabPage3.Location = New Point(4, 29)
         TabPage3.Name = "TabPage3"
         TabPage3.Padding = New Padding(3)
-        TabPage3.Size = New Size(459, 464)
+        TabPage3.Size = New Size(450, 464)
         TabPage3.TabIndex = 2
-        TabPage3.Text = "Матрисаи 4х4"
+        TabPage3.Text = "Матрица 4х4"
         TabPage3.UseVisualStyleBackColor = True
         ' 
         ' Button9
         ' 
         Button9.Font = New Font("Segoe UI", 10F)
-        Button9.Location = New Point(101, 370)
+        Button9.Location = New Point(101, 377)
         Button9.Name = "Button9"
         Button9.Size = New Size(111, 35)
         Button9.TabIndex = 48
@@ -380,7 +381,7 @@ Partial Class Form1
         ' 
         Label6.AutoSize = True
         Label6.Font = New Font("Segoe UI", 12F)
-        Label6.Location = New Point(33, 63)
+        Label6.Location = New Point(33, 66)
         Label6.Name = "Label6"
         Label6.Size = New Size(68, 28)
         Label6.TabIndex = 47
@@ -527,7 +528,7 @@ Partial Class Form1
         ' Button3
         ' 
         Button3.Font = New Font("Segoe UI", 13F)
-        Button3.Location = New Point(253, 370)
+        Button3.Location = New Point(253, 377)
         Button3.Name = "Button3"
         Button3.Size = New Size(111, 35)
         Button3.TabIndex = 10
@@ -540,18 +541,22 @@ Partial Class Form1
         Label3.Font = New Font("Segoe UI", 12F)
         Label3.Location = New Point(107, 66)
         Label3.Name = "Label3"
-        Label3.Size = New Size(0, 28)
+        Label3.Size = New Size(23, 28)
         Label3.TabIndex = 0
+        Label3.Text = "0"
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(474, 488)
+        ClientSize = New Size(457, 488)
         Controls.Add(TabControl1)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        MaximumSize = New Size(475, 535)
+        MinimumSize = New Size(475, 535)
         Name = "Form1"
-        Text = "Form1"
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "Matrix"
         TabControl1.ResumeLayout(False)
         TabPage1.ResumeLayout(False)
         TabPage1.PerformLayout()
@@ -596,7 +601,6 @@ Partial Class Form1
     Friend WithEvents d7 As TextBox
     Friend WithEvents d6 As TextBox
     Friend WithEvents d5 As TextBox
-    Friend WithEvents Label4 As Label
     Friend WithEvents Button4 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Label5 As Label
@@ -610,5 +614,6 @@ Partial Class Form1
     Friend WithEvents a1 As TextBox
     Friend WithEvents Button6 As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label7 As Label
 
 End Class
