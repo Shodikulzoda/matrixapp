@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form3
+Partial Class Form4
     Inherits System.Windows.Forms.Form
 
     'Форма переопределяет dispose для очистки списка компонентов.
@@ -22,46 +22,50 @@ Partial Class Form3
     'Не изменяйте ее в редакторе исходного кода.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form3))
         Button1 = New Button()
-        Button2 = New Button()
+        TextBox1 = New TextBox()
+        TextBox2 = New TextBox()
         SuspendLayout()
         ' 
         ' Button1
         ' 
-        Button1.Font = New Font("Segoe UI", 10F)
-        Button1.Location = New Point(65, 179)
+        Button1.Location = New Point(472, 316)
         Button1.Name = "Button1"
-        Button1.Size = New Size(133, 54)
+        Button1.Size = New Size(275, 109)
         Button1.TabIndex = 0
-        Button1.Text = "Матритсаҳо"
+        Button1.Text = "OK"
         Button1.UseVisualStyleBackColor = True
         ' 
-        ' Button2
+        ' TextBox1
         ' 
-        Button2.Location = New Point(252, 179)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(140, 54)
-        Button2.TabIndex = 1
-        Button2.Text = "Амалҳо бо матритсаҳо"
-        Button2.UseVisualStyleBackColor = True
+        TextBox1.Location = New Point(100, 120)
+        TextBox1.Name = "TextBox1"
+        TextBox1.Size = New Size(104, 27)
+        TextBox1.TabIndex = 1
         ' 
-        ' Form3
+        ' TextBox2
+        ' 
+        TextBox2.Location = New Point(99, 153)
+        TextBox2.Multiline = True
+        TextBox2.Name = "TextBox2"
+        TextBox2.Size = New Size(350, 285)
+        TextBox2.TabIndex = 2
+        ' 
+        ' Form4
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(449, 450)
-        Controls.Add(Button2)
+        ClientSize = New Size(800, 450)
+        Controls.Add(TextBox2)
+        Controls.Add(TextBox1)
         Controls.Add(Button1)
-        Icon = CType(resources.GetObject("$this.Icon"), Icon)
-        MaximumSize = New Size(467, 497)
-        MinimumSize = New Size(467, 497)
-        Name = "Form3"
-        StartPosition = FormStartPosition.CenterScreen
-        Text = "Matrix"
+        Name = "Form4"
+        Text = "Form4"
         ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
 End Class

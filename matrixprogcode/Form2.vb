@@ -121,10 +121,6 @@
                 clear.text = ""
             End If
         Next
-        Label1.Text = "0"
-        Label3.Text = "0"
-        Label2.Text = "0"
-        Label4.Text = "0"
     End Sub
 
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
@@ -134,18 +130,6 @@
                 clear.text = ""
             End If
         Next
-        L1.Text = "0"
-        L2.Text = "0"
-        L3.Text = "0"
-        L4.Text = "0"
-        L5.Text = "0"
-        L6.Text = "0"
-        L7.Text = "0"
-        L8.Text = "0"
-        L9.Text = "0"
-
-
-
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
@@ -155,10 +139,6 @@
                 clear.text = ""
             End If
         Next
-        v1.Text = "0"
-        v2.Text = "0"
-        v3.Text = "0"
-        v4.Text = "0"
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs)
@@ -266,15 +246,6 @@
                 clear.text = ""
             End If
         Next
-        p1.Text = "0"
-        p2.Text = "0"
-        p3.Text = "0"
-        p4.Text = "0"
-        p5.Text = "0"
-        p6.Text = "0"
-        p7.Text = "0"
-        p8.Text = "0"
-        p9.Text = "0"
     End Sub
 
     Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
@@ -284,15 +255,6 @@
                 clear.text = ""
             End If
         Next
-        jj1.Text = "0"
-        jj2.Text = "0"
-        jj3.Text = "0"
-        jj4.Text = "0"
-        jj5.Text = "0"
-        jj6.Text = "0"
-        jj7.Text = "0"
-        jj8.Text = "0"
-        jj9.Text = "0"
     End Sub
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
@@ -330,19 +292,4 @@
         f3.Text = j3
         f4.Text = j4
     End Sub
-
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        'кнопкаи тоза кунии
-        For Each clear As Object In TabPage4.Controls
-            If TypeOf clear Is TextBox Then
-                clear.text = ""
-            End If
-        Next
-        f1.Text = "0"
-        f2.Text = "0"
-        f3.Text = "0"
-        f4.Text = "0"
-    End Sub
-
-
 End Class

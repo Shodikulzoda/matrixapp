@@ -24,6 +24,24 @@ Partial Class Form2
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         TabControl1 = New TabControl()
+        TabPage12 = New TabPage()
+        Button9 = New Button()
+        Button8 = New Button()
+        Label4 = New Label()
+        Label3 = New Label()
+        Label2 = New Label()
+        Label1 = New Label()
+        Button1 = New Button()
+        barobar = New Label()
+        b4 = New TextBox()
+        b2 = New TextBox()
+        b3 = New TextBox()
+        b1 = New TextBox()
+        plus = New Label()
+        z4 = New TextBox()
+        z2 = New TextBox()
+        z3 = New TextBox()
+        z1 = New TextBox()
         TabPage2 = New TabPage()
         Button10 = New Button()
         Button7 = New Button()
@@ -47,6 +65,7 @@ Partial Class Form2
         e3 = New TextBox()
         e2 = New TextBox()
         e1 = New TextBox()
+        Label5 = New Label()
         a9 = New TextBox()
         a8 = New TextBox()
         a7 = New TextBox()
@@ -56,24 +75,6 @@ Partial Class Form2
         a3 = New TextBox()
         a2 = New TextBox()
         a1 = New TextBox()
-        TabPage12 = New TabPage()
-        Button9 = New Button()
-        Button8 = New Button()
-        Label4 = New Label()
-        Label3 = New Label()
-        Label2 = New Label()
-        Label1 = New Label()
-        Button1 = New Button()
-        barobar = New Label()
-        b4 = New TextBox()
-        b2 = New TextBox()
-        b3 = New TextBox()
-        b1 = New TextBox()
-        plus = New Label()
-        z4 = New TextBox()
-        z2 = New TextBox()
-        z3 = New TextBox()
-        z1 = New TextBox()
         TabPage3 = New TabPage()
         Button11 = New Button()
         Label11 = New Label()
@@ -96,6 +97,28 @@ Partial Class Form2
         t3 = New TextBox()
         t2 = New TextBox()
         t1 = New TextBox()
+        TabPage4 = New TabPage()
+        Button4 = New Button()
+        Label10 = New Label()
+        Button12 = New Button()
+        f4 = New Label()
+        f2 = New Label()
+        f3 = New Label()
+        f1 = New Label()
+        Label20 = New Label()
+        Label21 = New Label()
+        ad2 = New TextBox()
+        Label22 = New Label()
+        ad1 = New TextBox()
+        g4 = New TextBox()
+        g3 = New TextBox()
+        g2 = New TextBox()
+        g1 = New TextBox()
+        r4 = New TextBox()
+        r3 = New TextBox()
+        r2 = New TextBox()
+        r1 = New TextBox()
+        Button5 = New Button()
         TabPage1 = New TabPage()
         Button17 = New Button()
         Button14 = New Button()
@@ -133,28 +156,6 @@ Partial Class Form2
         u7 = New TextBox()
         u4 = New TextBox()
         u1 = New TextBox()
-        TabPage4 = New TabPage()
-        Button4 = New Button()
-        Label10 = New Label()
-        Button12 = New Button()
-        f4 = New Label()
-        f2 = New Label()
-        f3 = New Label()
-        f1 = New Label()
-        Label20 = New Label()
-        Label21 = New Label()
-        ad2 = New TextBox()
-        Label22 = New Label()
-        ad1 = New TextBox()
-        g4 = New TextBox()
-        g3 = New TextBox()
-        g2 = New TextBox()
-        g1 = New TextBox()
-        r4 = New TextBox()
-        r3 = New TextBox()
-        r2 = New TextBox()
-        r1 = New TextBox()
-        Button5 = New Button()
         TabPage5 = New TabPage()
         Button18 = New Button()
         Button15 = New Button()
@@ -192,34 +193,211 @@ Partial Class Form2
         x7 = New TextBox()
         x4 = New TextBox()
         x1 = New TextBox()
-        Label5 = New Label()
         TabControl1.SuspendLayout()
-        TabPage2.SuspendLayout()
         TabPage12.SuspendLayout()
+        TabPage2.SuspendLayout()
         TabPage3.SuspendLayout()
-        TabPage1.SuspendLayout()
         TabPage4.SuspendLayout()
+        TabPage1.SuspendLayout()
         TabPage5.SuspendLayout()
         SuspendLayout()
         ' 
         ' TabControl1
         ' 
-        TabControl1.AccessibleRole = AccessibleRole.Clock
-        TabControl1.Controls.Add(TabPage2)
         TabControl1.Controls.Add(TabPage12)
+        TabControl1.Controls.Add(TabPage2)
         TabControl1.Controls.Add(TabPage3)
-        TabControl1.Controls.Add(TabPage1)
         TabControl1.Controls.Add(TabPage4)
+        TabControl1.Controls.Add(TabPage1)
         TabControl1.Controls.Add(TabPage5)
-        TabControl1.Location = New Point(-1, -2)
+        TabControl1.Location = New Point(-1, -1)
         TabControl1.Name = "TabControl1"
         TabControl1.SelectedIndex = 0
-        TabControl1.Size = New Size(840, 475)
+        TabControl1.Size = New Size(840, 474)
         TabControl1.TabIndex = 0
+        ' 
+        ' TabPage12
+        ' 
+        TabPage12.Controls.Add(Button9)
+        TabPage12.Controls.Add(Button8)
+        TabPage12.Controls.Add(Label4)
+        TabPage12.Controls.Add(Label3)
+        TabPage12.Controls.Add(Label2)
+        TabPage12.Controls.Add(Label1)
+        TabPage12.Controls.Add(Button1)
+        TabPage12.Controls.Add(barobar)
+        TabPage12.Controls.Add(b4)
+        TabPage12.Controls.Add(b2)
+        TabPage12.Controls.Add(b3)
+        TabPage12.Controls.Add(b1)
+        TabPage12.Controls.Add(plus)
+        TabPage12.Controls.Add(z4)
+        TabPage12.Controls.Add(z2)
+        TabPage12.Controls.Add(z3)
+        TabPage12.Controls.Add(z1)
+        TabPage12.Location = New Point(4, 29)
+        TabPage12.Name = "TabPage12"
+        TabPage12.Padding = New Padding(3)
+        TabPage12.Size = New Size(832, 441)
+        TabPage12.TabIndex = 0
+        TabPage12.Text = "Зарби матритсаҳои 2x2"
+        TabPage12.UseVisualStyleBackColor = True
+        ' 
+        ' Button9
+        ' 
+        Button9.Location = New Point(189, 256)
+        Button9.Name = "Button9"
+        Button9.Size = New Size(117, 38)
+        Button9.TabIndex = 45
+        Button9.Text = "С"
+        Button9.UseVisualStyleBackColor = True
+        ' 
+        ' Button8
+        ' 
+        Button8.Font = New Font("Segoe UI", 12F)
+        Button8.Location = New Point(9, 6)
+        Button8.Name = "Button8"
+        Button8.Size = New Size(101, 36)
+        Button8.TabIndex = 44
+        Button8.Text = "Главный"
+        Button8.UseVisualStyleBackColor = True
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Segoe UI", 12F)
+        Label4.Location = New Point(656, 183)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(23, 28)
+        Label4.TabIndex = 18
+        Label4.Text = "0"
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Segoe UI", 12F)
+        Label3.Location = New Point(656, 122)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(23, 28)
+        Label3.TabIndex = 17
+        Label3.Text = "0"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Segoe UI", 12F)
+        Label2.Location = New Point(565, 183)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(23, 28)
+        Label2.TabIndex = 16
+        Label2.Text = "0"
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Segoe UI", 12F)
+        Label1.Location = New Point(565, 122)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(23, 28)
+        Label1.TabIndex = 15
+        Label1.Text = "0"
+        ' 
+        ' Button1
+        ' 
+        Button1.Font = New Font("Segoe UI", 12F)
+        Button1.Location = New Point(380, 253)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(117, 38)
+        Button1.TabIndex = 14
+        Button1.Text = "="
+        Button1.UseVisualStyleBackColor = True
+        ' 
+        ' barobar
+        ' 
+        barobar.AutoSize = True
+        barobar.Font = New Font("Segoe UI", 20F)
+        barobar.Location = New Point(522, 142)
+        barobar.Name = "barobar"
+        barobar.Size = New Size(43, 46)
+        barobar.TabIndex = 9
+        barobar.Text = "="
+        ' 
+        ' b4
+        ' 
+        b4.Font = New Font("Segoe UI", 12F)
+        b4.Location = New Point(454, 183)
+        b4.Name = "b4"
+        b4.Size = New Size(43, 34)
+        b4.TabIndex = 8
+        ' 
+        ' b2
+        ' 
+        b2.Font = New Font("Segoe UI", 12F)
+        b2.Location = New Point(454, 124)
+        b2.Name = "b2"
+        b2.Size = New Size(43, 34)
+        b2.TabIndex = 7
+        ' 
+        ' b3
+        ' 
+        b3.Font = New Font("Segoe UI", 12F)
+        b3.Location = New Point(380, 183)
+        b3.Name = "b3"
+        b3.Size = New Size(43, 34)
+        b3.TabIndex = 6
+        ' 
+        ' b1
+        ' 
+        b1.Font = New Font("Segoe UI", 12F)
+        b1.Location = New Point(380, 124)
+        b1.Name = "b1"
+        b1.Size = New Size(43, 34)
+        b1.TabIndex = 5
+        ' 
+        ' plus
+        ' 
+        plus.AutoSize = True
+        plus.Font = New Font("Segoe UI", 20F)
+        plus.Location = New Point(331, 142)
+        plus.Name = "plus"
+        plus.Size = New Size(36, 46)
+        plus.TabIndex = 4
+        plus.Text = "x"
+        ' 
+        ' z4
+        ' 
+        z4.Font = New Font("Segoe UI", 12F)
+        z4.Location = New Point(263, 183)
+        z4.Name = "z4"
+        z4.Size = New Size(43, 34)
+        z4.TabIndex = 3
+        ' 
+        ' z2
+        ' 
+        z2.Font = New Font("Segoe UI", 12F)
+        z2.Location = New Point(263, 124)
+        z2.Name = "z2"
+        z2.Size = New Size(43, 34)
+        z2.TabIndex = 2
+        ' 
+        ' z3
+        ' 
+        z3.Font = New Font("Segoe UI", 12F)
+        z3.Location = New Point(189, 183)
+        z3.Name = "z3"
+        z3.Size = New Size(43, 34)
+        z3.TabIndex = 1
+        ' 
+        ' z1
+        ' 
+        z1.Font = New Font("Segoe UI", 12F)
+        z1.Location = New Point(189, 124)
+        z1.Name = "z1"
+        z1.Size = New Size(43, 34)
+        z1.TabIndex = 0
         ' 
         ' TabPage2
         ' 
-        TabPage2.Controls.Add(Label5)
         TabPage2.Controls.Add(Button10)
         TabPage2.Controls.Add(Button7)
         TabPage2.Controls.Add(Button2)
@@ -242,6 +420,7 @@ Partial Class Form2
         TabPage2.Controls.Add(e3)
         TabPage2.Controls.Add(e2)
         TabPage2.Controls.Add(e1)
+        TabPage2.Controls.Add(Label5)
         TabPage2.Controls.Add(a9)
         TabPage2.Controls.Add(a8)
         TabPage2.Controls.Add(a7)
@@ -254,9 +433,9 @@ Partial Class Form2
         TabPage2.Location = New Point(4, 29)
         TabPage2.Name = "TabPage2"
         TabPage2.Padding = New Padding(3)
-        TabPage2.Size = New Size(832, 442)
+        TabPage2.Size = New Size(832, 441)
         TabPage2.TabIndex = 1
-        TabPage2.Text = "Зарби матритсахои 3х3"
+        TabPage2.Text = "Умножение матрицы 3x3"
         TabPage2.UseVisualStyleBackColor = True
         ' 
         ' Button10
@@ -276,7 +455,7 @@ Partial Class Form2
         Button7.Name = "Button7"
         Button7.Size = New Size(101, 36)
         Button7.TabIndex = 43
-        Button7.Text = "Меню"
+        Button7.Text = "Главный"
         Button7.UseVisualStyleBackColor = True
         ' 
         ' Button2
@@ -471,6 +650,16 @@ Partial Class Form2
         e1.Size = New Size(39, 34)
         e1.TabIndex = 10
         ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Segoe UI", 20F)
+        Label5.Location = New Point(285, 166)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(36, 46)
+        Label5.TabIndex = 9
+        Label5.Text = "x"
+        ' 
         ' a9
         ' 
         a9.Font = New Font("Segoe UI", 12F)
@@ -543,186 +732,6 @@ Partial Class Form2
         a1.Size = New Size(39, 34)
         a1.TabIndex = 0
         ' 
-        ' TabPage12
-        ' 
-        TabPage12.Controls.Add(Button9)
-        TabPage12.Controls.Add(Button8)
-        TabPage12.Controls.Add(Label4)
-        TabPage12.Controls.Add(Label3)
-        TabPage12.Controls.Add(Label2)
-        TabPage12.Controls.Add(Label1)
-        TabPage12.Controls.Add(Button1)
-        TabPage12.Controls.Add(barobar)
-        TabPage12.Controls.Add(b4)
-        TabPage12.Controls.Add(b2)
-        TabPage12.Controls.Add(b3)
-        TabPage12.Controls.Add(b1)
-        TabPage12.Controls.Add(plus)
-        TabPage12.Controls.Add(z4)
-        TabPage12.Controls.Add(z2)
-        TabPage12.Controls.Add(z3)
-        TabPage12.Controls.Add(z1)
-        TabPage12.Location = New Point(4, 29)
-        TabPage12.Name = "TabPage12"
-        TabPage12.Padding = New Padding(3)
-        TabPage12.Size = New Size(832, 442)
-        TabPage12.TabIndex = 0
-        TabPage12.Text = "Зарби матритсахои 2х2"
-        TabPage12.UseVisualStyleBackColor = True
-        ' 
-        ' Button9
-        ' 
-        Button9.Location = New Point(189, 256)
-        Button9.Name = "Button9"
-        Button9.Size = New Size(117, 38)
-        Button9.TabIndex = 45
-        Button9.Text = "С"
-        Button9.UseVisualStyleBackColor = True
-        ' 
-        ' Button8
-        ' 
-        Button8.Font = New Font("Segoe UI", 12F)
-        Button8.Location = New Point(9, 6)
-        Button8.Name = "Button8"
-        Button8.Size = New Size(101, 36)
-        Button8.TabIndex = 44
-        Button8.Text = "Меню"
-        Button8.UseVisualStyleBackColor = True
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI", 12F)
-        Label4.Location = New Point(656, 183)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(23, 28)
-        Label4.TabIndex = 18
-        Label4.Text = "0"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI", 12F)
-        Label3.Location = New Point(656, 122)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(23, 28)
-        Label3.TabIndex = 17
-        Label3.Text = "0"
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI", 12F)
-        Label2.Location = New Point(565, 183)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(23, 28)
-        Label2.TabIndex = 16
-        Label2.Text = "0"
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI", 12F)
-        Label1.Location = New Point(565, 122)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(23, 28)
-        Label1.TabIndex = 15
-        Label1.Text = "0"
-        ' 
-        ' Button1
-        ' 
-        Button1.Font = New Font("Segoe UI", 12F)
-        Button1.Location = New Point(380, 253)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(117, 38)
-        Button1.TabIndex = 14
-        Button1.Text = "="
-        Button1.UseVisualStyleBackColor = True
-        ' 
-        ' barobar
-        ' 
-        barobar.AutoSize = True
-        barobar.Font = New Font("Segoe UI", 20F)
-        barobar.Location = New Point(522, 142)
-        barobar.Name = "barobar"
-        barobar.Size = New Size(43, 46)
-        barobar.TabIndex = 9
-        barobar.Text = "="
-        ' 
-        ' b4
-        ' 
-        b4.Font = New Font("Segoe UI", 12F)
-        b4.Location = New Point(454, 183)
-        b4.Name = "b4"
-        b4.Size = New Size(43, 34)
-        b4.TabIndex = 8
-        ' 
-        ' b2
-        ' 
-        b2.Font = New Font("Segoe UI", 12F)
-        b2.Location = New Point(454, 124)
-        b2.Name = "b2"
-        b2.Size = New Size(43, 34)
-        b2.TabIndex = 7
-        ' 
-        ' b3
-        ' 
-        b3.Font = New Font("Segoe UI", 12F)
-        b3.Location = New Point(380, 183)
-        b3.Name = "b3"
-        b3.Size = New Size(43, 34)
-        b3.TabIndex = 6
-        ' 
-        ' b1
-        ' 
-        b1.Font = New Font("Segoe UI", 12F)
-        b1.Location = New Point(380, 124)
-        b1.Name = "b1"
-        b1.Size = New Size(43, 34)
-        b1.TabIndex = 5
-        ' 
-        ' plus
-        ' 
-        plus.AutoSize = True
-        plus.Font = New Font("Segoe UI", 20F)
-        plus.Location = New Point(331, 142)
-        plus.Name = "plus"
-        plus.Size = New Size(36, 46)
-        plus.TabIndex = 4
-        plus.Text = "x"
-        ' 
-        ' z4
-        ' 
-        z4.Font = New Font("Segoe UI", 12F)
-        z4.Location = New Point(263, 183)
-        z4.Name = "z4"
-        z4.Size = New Size(43, 34)
-        z4.TabIndex = 3
-        ' 
-        ' z2
-        ' 
-        z2.Font = New Font("Segoe UI", 12F)
-        z2.Location = New Point(263, 124)
-        z2.Name = "z2"
-        z2.Size = New Size(43, 34)
-        z2.TabIndex = 2
-        ' 
-        ' z3
-        ' 
-        z3.Font = New Font("Segoe UI", 12F)
-        z3.Location = New Point(189, 183)
-        z3.Name = "z3"
-        z3.Size = New Size(43, 34)
-        z3.TabIndex = 1
-        ' 
-        ' z1
-        ' 
-        z1.Font = New Font("Segoe UI", 12F)
-        z1.Location = New Point(189, 124)
-        z1.Name = "z1"
-        z1.Size = New Size(43, 34)
-        z1.TabIndex = 0
-        ' 
         ' TabPage3
         ' 
         TabPage3.Controls.Add(Button11)
@@ -750,9 +759,9 @@ Partial Class Form2
         TabPage3.Location = New Point(4, 29)
         TabPage3.Name = "TabPage3"
         TabPage3.Padding = New Padding(3)
-        TabPage3.Size = New Size(832, 442)
+        TabPage3.Size = New Size(832, 441)
         TabPage3.TabIndex = 2
-        TabPage3.Text = "Ҷаъми матритсаҳои 2х2"
+        TabPage3.Text = "Сумма матриц 2x2"
         TabPage3.UseVisualStyleBackColor = True
         ' 
         ' Button11
@@ -782,7 +791,7 @@ Partial Class Form2
         Button6.Name = "Button6"
         Button6.Size = New Size(101, 36)
         Button6.TabIndex = 42
-        Button6.Text = "Меню"
+        Button6.Text = "Главный"
         Button6.UseVisualStyleBackColor = True
         ' 
         ' Button3
@@ -939,378 +948,6 @@ Partial Class Form2
         t1.Size = New Size(40, 34)
         t1.TabIndex = 0
         ' 
-        ' TabPage1
-        ' 
-        TabPage1.Controls.Add(Button17)
-        TabPage1.Controls.Add(Button14)
-        TabPage1.Controls.Add(Button13)
-        TabPage1.Controls.Add(p9)
-        TabPage1.Controls.Add(p6)
-        TabPage1.Controls.Add(p3)
-        TabPage1.Controls.Add(p8)
-        TabPage1.Controls.Add(p5)
-        TabPage1.Controls.Add(p2)
-        TabPage1.Controls.Add(p7)
-        TabPage1.Controls.Add(p4)
-        TabPage1.Controls.Add(p1)
-        TabPage1.Controls.Add(Label18)
-        TabPage1.Controls.Add(Label17)
-        TabPage1.Controls.Add(Label13)
-        TabPage1.Controls.Add(ss2)
-        TabPage1.Controls.Add(i9)
-        TabPage1.Controls.Add(i6)
-        TabPage1.Controls.Add(i3)
-        TabPage1.Controls.Add(i8)
-        TabPage1.Controls.Add(i5)
-        TabPage1.Controls.Add(i2)
-        TabPage1.Controls.Add(i7)
-        TabPage1.Controls.Add(i4)
-        TabPage1.Controls.Add(i1)
-        TabPage1.Controls.Add(Label12)
-        TabPage1.Controls.Add(ss1)
-        TabPage1.Controls.Add(u9)
-        TabPage1.Controls.Add(u6)
-        TabPage1.Controls.Add(u3)
-        TabPage1.Controls.Add(u8)
-        TabPage1.Controls.Add(u5)
-        TabPage1.Controls.Add(u2)
-        TabPage1.Controls.Add(u7)
-        TabPage1.Controls.Add(u4)
-        TabPage1.Controls.Add(u1)
-        TabPage1.Font = New Font("Segoe UI", 13F)
-        TabPage1.Location = New Point(4, 29)
-        TabPage1.Name = "TabPage1"
-        TabPage1.Padding = New Padding(3)
-        TabPage1.Size = New Size(832, 442)
-        TabPage1.TabIndex = 4
-        TabPage1.Text = "Ҷаъми матритсаҳои 3х3"
-        TabPage1.UseVisualStyleBackColor = True
-        ' 
-        ' Button17
-        ' 
-        Button17.Font = New Font("Segoe UI", 12F)
-        Button17.Location = New Point(3, 6)
-        Button17.Name = "Button17"
-        Button17.Size = New Size(108, 33)
-        Button17.TabIndex = 42
-        Button17.Text = "Меню"
-        Button17.UseVisualStyleBackColor = True
-        ' 
-        ' Button14
-        ' 
-        Button14.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button14.Location = New Point(84, 285)
-        Button14.Name = "Button14"
-        Button14.Size = New Size(153, 36)
-        Button14.TabIndex = 34
-        Button14.Text = "с"
-        Button14.UseVisualStyleBackColor = True
-        ' 
-        ' Button13
-        ' 
-        Button13.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
-        Button13.Location = New Point(374, 285)
-        Button13.Name = "Button13"
-        Button13.Size = New Size(153, 36)
-        Button13.TabIndex = 33
-        Button13.Text = "="
-        Button13.UseVisualStyleBackColor = True
-        ' 
-        ' p9
-        ' 
-        p9.AutoSize = True
-        p9.Font = New Font("Segoe UI", 12F)
-        p9.Location = New Point(726, 237)
-        p9.Name = "p9"
-        p9.Size = New Size(23, 28)
-        p9.TabIndex = 32
-        p9.Text = "0"
-        ' 
-        ' p6
-        ' 
-        p6.AutoSize = True
-        p6.Font = New Font("Segoe UI", 12F)
-        p6.Location = New Point(726, 183)
-        p6.Name = "p6"
-        p6.Size = New Size(23, 28)
-        p6.TabIndex = 31
-        p6.Text = "0"
-        ' 
-        ' p3
-        ' 
-        p3.AutoSize = True
-        p3.Font = New Font("Segoe UI", 12F)
-        p3.Location = New Point(726, 130)
-        p3.Name = "p3"
-        p3.Size = New Size(23, 28)
-        p3.TabIndex = 30
-        p3.Text = "0"
-        ' 
-        ' p8
-        ' 
-        p8.AutoSize = True
-        p8.Font = New Font("Segoe UI", 12F)
-        p8.Location = New Point(652, 237)
-        p8.Name = "p8"
-        p8.Size = New Size(23, 28)
-        p8.TabIndex = 29
-        p8.Text = "0"
-        ' 
-        ' p5
-        ' 
-        p5.AutoSize = True
-        p5.Font = New Font("Segoe UI", 12F)
-        p5.Location = New Point(652, 183)
-        p5.Name = "p5"
-        p5.Size = New Size(23, 28)
-        p5.TabIndex = 28
-        p5.Text = "0"
-        ' 
-        ' p2
-        ' 
-        p2.AutoSize = True
-        p2.Font = New Font("Segoe UI", 12F)
-        p2.Location = New Point(652, 130)
-        p2.Name = "p2"
-        p2.Size = New Size(23, 28)
-        p2.TabIndex = 27
-        p2.Text = "0"
-        ' 
-        ' p7
-        ' 
-        p7.AutoSize = True
-        p7.Font = New Font("Segoe UI", 12F)
-        p7.Location = New Point(576, 237)
-        p7.Name = "p7"
-        p7.Size = New Size(23, 28)
-        p7.TabIndex = 26
-        p7.Text = "0"
-        ' 
-        ' p4
-        ' 
-        p4.AutoSize = True
-        p4.Font = New Font("Segoe UI", 12F)
-        p4.Location = New Point(576, 183)
-        p4.Name = "p4"
-        p4.Size = New Size(23, 28)
-        p4.TabIndex = 25
-        p4.Text = "0"
-        ' 
-        ' p1
-        ' 
-        p1.AutoSize = True
-        p1.Font = New Font("Segoe UI", 12F)
-        p1.Location = New Point(576, 130)
-        p1.Name = "p1"
-        p1.Size = New Size(23, 28)
-        p1.TabIndex = 24
-        p1.Text = "0"
-        ' 
-        ' Label18
-        ' 
-        Label18.AutoSize = True
-        Label18.Font = New Font("Segoe UI", 17F)
-        Label18.Location = New Point(533, 174)
-        Label18.Name = "Label18"
-        Label18.RightToLeft = RightToLeft.Yes
-        Label18.Size = New Size(37, 40)
-        Label18.TabIndex = 23
-        Label18.Text = "="
-        Label18.TextAlign = ContentAlignment.TopCenter
-        ' 
-        ' Label17
-        ' 
-        Label17.AutoSize = True
-        Label17.Font = New Font("Segoe UI", 17F)
-        Label17.Location = New Point(258, 174)
-        Label17.Name = "Label17"
-        Label17.RightToLeft = RightToLeft.Yes
-        Label17.Size = New Size(37, 40)
-        Label17.TabIndex = 22
-        Label17.Text = "+"
-        ' 
-        ' Label13
-        ' 
-        Label13.AutoSize = True
-        Label13.Font = New Font("Segoe UI", 15F)
-        Label13.Location = New Point(340, 176)
-        Label13.Name = "Label13"
-        Label13.RightToLeft = RightToLeft.Yes
-        Label13.Size = New Size(26, 35)
-        Label13.TabIndex = 21
-        Label13.Text = "x"
-        ' 
-        ' ss2
-        ' 
-        ss2.Font = New Font("Segoe UI", 12F)
-        ss2.Location = New Point(299, 180)
-        ss2.Name = "ss2"
-        ss2.Size = New Size(35, 34)
-        ss2.TabIndex = 20
-        ' 
-        ' i9
-        ' 
-        i9.Font = New Font("Segoe UI", 12F)
-        i9.Location = New Point(492, 234)
-        i9.Name = "i9"
-        i9.Size = New Size(35, 34)
-        i9.TabIndex = 19
-        ' 
-        ' i6
-        ' 
-        i6.Font = New Font("Segoe UI", 12F)
-        i6.Location = New Point(492, 180)
-        i6.Name = "i6"
-        i6.Size = New Size(35, 34)
-        i6.TabIndex = 18
-        ' 
-        ' i3
-        ' 
-        i3.Font = New Font("Segoe UI", 12F)
-        i3.Location = New Point(492, 127)
-        i3.Name = "i3"
-        i3.Size = New Size(35, 34)
-        i3.TabIndex = 17
-        ' 
-        ' i8
-        ' 
-        i8.Font = New Font("Segoe UI", 12F)
-        i8.Location = New Point(432, 234)
-        i8.Name = "i8"
-        i8.Size = New Size(35, 34)
-        i8.TabIndex = 16
-        ' 
-        ' i5
-        ' 
-        i5.Font = New Font("Segoe UI", 12F)
-        i5.Location = New Point(432, 180)
-        i5.Name = "i5"
-        i5.Size = New Size(35, 34)
-        i5.TabIndex = 15
-        ' 
-        ' i2
-        ' 
-        i2.Font = New Font("Segoe UI", 12F)
-        i2.Location = New Point(432, 127)
-        i2.Name = "i2"
-        i2.Size = New Size(35, 34)
-        i2.TabIndex = 14
-        ' 
-        ' i7
-        ' 
-        i7.Font = New Font("Segoe UI", 12F)
-        i7.Location = New Point(374, 234)
-        i7.Name = "i7"
-        i7.Size = New Size(35, 34)
-        i7.TabIndex = 13
-        ' 
-        ' i4
-        ' 
-        i4.Font = New Font("Segoe UI", 12F)
-        i4.Location = New Point(374, 180)
-        i4.Name = "i4"
-        i4.Size = New Size(35, 34)
-        i4.TabIndex = 12
-        ' 
-        ' i1
-        ' 
-        i1.Font = New Font("Segoe UI", 12F)
-        i1.Location = New Point(374, 127)
-        i1.Name = "i1"
-        i1.Size = New Size(35, 34)
-        i1.TabIndex = 11
-        ' 
-        ' Label12
-        ' 
-        Label12.AutoSize = True
-        Label12.Font = New Font("Segoe UI", 15F)
-        Label12.Location = New Point(50, 176)
-        Label12.Name = "Label12"
-        Label12.RightToLeft = RightToLeft.Yes
-        Label12.Size = New Size(26, 35)
-        Label12.TabIndex = 10
-        Label12.Text = "x"
-        ' 
-        ' ss1
-        ' 
-        ss1.Font = New Font("Segoe UI", 12F)
-        ss1.Location = New Point(9, 180)
-        ss1.Name = "ss1"
-        ss1.Size = New Size(35, 34)
-        ss1.TabIndex = 9
-        ' 
-        ' u9
-        ' 
-        u9.Font = New Font("Segoe UI", 12F)
-        u9.Location = New Point(202, 234)
-        u9.Name = "u9"
-        u9.Size = New Size(35, 34)
-        u9.TabIndex = 8
-        ' 
-        ' u6
-        ' 
-        u6.Font = New Font("Segoe UI", 12F)
-        u6.Location = New Point(202, 180)
-        u6.Name = "u6"
-        u6.Size = New Size(35, 34)
-        u6.TabIndex = 7
-        ' 
-        ' u3
-        ' 
-        u3.Font = New Font("Segoe UI", 12F)
-        u3.Location = New Point(202, 127)
-        u3.Name = "u3"
-        u3.Size = New Size(35, 34)
-        u3.TabIndex = 6
-        ' 
-        ' u8
-        ' 
-        u8.Font = New Font("Segoe UI", 12F)
-        u8.Location = New Point(142, 234)
-        u8.Name = "u8"
-        u8.Size = New Size(35, 34)
-        u8.TabIndex = 5
-        ' 
-        ' u5
-        ' 
-        u5.Font = New Font("Segoe UI", 12F)
-        u5.Location = New Point(142, 180)
-        u5.Name = "u5"
-        u5.Size = New Size(35, 34)
-        u5.TabIndex = 4
-        ' 
-        ' u2
-        ' 
-        u2.Font = New Font("Segoe UI", 12F)
-        u2.Location = New Point(142, 127)
-        u2.Name = "u2"
-        u2.Size = New Size(35, 34)
-        u2.TabIndex = 3
-        ' 
-        ' u7
-        ' 
-        u7.Font = New Font("Segoe UI", 12F)
-        u7.Location = New Point(84, 234)
-        u7.Name = "u7"
-        u7.Size = New Size(35, 34)
-        u7.TabIndex = 2
-        ' 
-        ' u4
-        ' 
-        u4.Font = New Font("Segoe UI", 12F)
-        u4.Location = New Point(84, 180)
-        u4.Name = "u4"
-        u4.Size = New Size(35, 34)
-        u4.TabIndex = 1
-        ' 
-        ' u1
-        ' 
-        u1.Font = New Font("Segoe UI", 12F)
-        u1.Location = New Point(84, 127)
-        u1.Name = "u1"
-        u1.Size = New Size(35, 34)
-        u1.TabIndex = 0
-        ' 
         ' TabPage4
         ' 
         TabPage4.Controls.Add(Button4)
@@ -1337,9 +974,9 @@ Partial Class Form2
         TabPage4.Location = New Point(4, 29)
         TabPage4.Name = "TabPage4"
         TabPage4.Padding = New Padding(3)
-        TabPage4.Size = New Size(832, 442)
+        TabPage4.Size = New Size(832, 441)
         TabPage4.TabIndex = 3
-        TabPage4.Text = "Фарқи матритсаҳои 2х2"
+        TabPage4.Text = "Минус матрица 2х2"
         TabPage4.UseVisualStyleBackColor = True
         ' 
         ' Button4
@@ -1411,7 +1048,7 @@ Partial Class Form2
         ' Label20
         ' 
         Label20.AutoSize = True
-        Label20.Font = New Font("Segoe UI", 17F)
+        Label20.Font = New Font("Segoe UI", 17.0F)
         Label20.Location = New Point(305, 168)
         Label20.Name = "Label20"
         Label20.Size = New Size(29, 40)
@@ -1429,7 +1066,7 @@ Partial Class Form2
         ' 
         ' ad2
         ' 
-        ad2.Font = New Font("Segoe UI", 12F)
+        ad2.Font = New Font("Segoe UI", 12.0F)
         ad2.Location = New Point(344, 171)
         ad2.Name = "ad2"
         ad2.Size = New Size(40, 34)
@@ -1446,7 +1083,7 @@ Partial Class Form2
         ' 
         ' ad1
         ' 
-        ad1.Font = New Font("Segoe UI", 12F)
+        ad1.Font = New Font("Segoe UI", 12.0F)
         ad1.Location = New Point(78, 171)
         ad1.Name = "ad1"
         ad1.Size = New Size(40, 34)
@@ -1454,7 +1091,7 @@ Partial Class Form2
         ' 
         ' g4
         ' 
-        g4.Font = New Font("Segoe UI", 12F)
+        g4.Font = New Font("Segoe UI", 12.0F)
         g4.Location = New Point(497, 207)
         g4.Name = "g4"
         g4.Size = New Size(40, 34)
@@ -1462,7 +1099,7 @@ Partial Class Form2
         ' 
         ' g3
         ' 
-        g3.Font = New Font("Segoe UI", 12F)
+        g3.Font = New Font("Segoe UI", 12.0F)
         g3.Location = New Point(410, 207)
         g3.Name = "g3"
         g3.Size = New Size(40, 34)
@@ -1470,7 +1107,7 @@ Partial Class Form2
         ' 
         ' g2
         ' 
-        g2.Font = New Font("Segoe UI", 12F)
+        g2.Font = New Font("Segoe UI", 12.0F)
         g2.Location = New Point(497, 132)
         g2.Name = "g2"
         g2.Size = New Size(40, 34)
@@ -1478,7 +1115,7 @@ Partial Class Form2
         ' 
         ' g1
         ' 
-        g1.Font = New Font("Segoe UI", 12F)
+        g1.Font = New Font("Segoe UI", 12.0F)
         g1.Location = New Point(410, 132)
         g1.Name = "g1"
         g1.Size = New Size(40, 34)
@@ -1486,7 +1123,7 @@ Partial Class Form2
         ' 
         ' r4
         ' 
-        r4.Font = New Font("Segoe UI", 12F)
+        r4.Font = New Font("Segoe UI", 12.0F)
         r4.Location = New Point(252, 207)
         r4.Name = "r4"
         r4.Size = New Size(40, 34)
@@ -1494,7 +1131,7 @@ Partial Class Form2
         ' 
         ' r3
         ' 
-        r3.Font = New Font("Segoe UI", 12F)
+        r3.Font = New Font("Segoe UI", 12.0F)
         r3.Location = New Point(165, 207)
         r3.Name = "r3"
         r3.Size = New Size(40, 34)
@@ -1502,7 +1139,7 @@ Partial Class Form2
         ' 
         ' r2
         ' 
-        r2.Font = New Font("Segoe UI", 12F)
+        r2.Font = New Font("Segoe UI", 12.0F)
         r2.Location = New Point(252, 132)
         r2.Name = "r2"
         r2.Size = New Size(40, 34)
@@ -1510,7 +1147,7 @@ Partial Class Form2
         ' 
         ' r1
         ' 
-        r1.Font = New Font("Segoe UI", 12F)
+        r1.Font = New Font("Segoe UI", 12.0F)
         r1.Location = New Point(165, 132)
         r1.Name = "r1"
         r1.Size = New Size(40, 34)
@@ -1518,17 +1155,388 @@ Partial Class Form2
         ' 
         ' Button5
         ' 
-        Button5.Font = New Font("Segoe UI", 12F)
+        Button5.Font = New Font("Segoe UI", 12.0F)
         Button5.Location = New Point(9, 6)
         Button5.Name = "Button5"
         Button5.Size = New Size(108, 33)
         Button5.TabIndex = 41
-        Button5.Text = "Меню"
+        Button5.Text = "Главный"
         Button5.UseVisualStyleBackColor = True
+        ' 
+        ' TabPage1
+        ' 
+        TabPage1.Controls.Add(Button17)
+        TabPage1.Controls.Add(Button14)
+        TabPage1.Controls.Add(Button13)
+        TabPage1.Controls.Add(p9)
+        TabPage1.Controls.Add(p6)
+        TabPage1.Controls.Add(p3)
+        TabPage1.Controls.Add(p8)
+        TabPage1.Controls.Add(p5)
+        TabPage1.Controls.Add(p2)
+        TabPage1.Controls.Add(p7)
+        TabPage1.Controls.Add(p4)
+        TabPage1.Controls.Add(p1)
+        TabPage1.Controls.Add(Label18)
+        TabPage1.Controls.Add(Label17)
+        TabPage1.Controls.Add(Label13)
+        TabPage1.Controls.Add(ss2)
+        TabPage1.Controls.Add(i9)
+        TabPage1.Controls.Add(i6)
+        TabPage1.Controls.Add(i3)
+        TabPage1.Controls.Add(i8)
+        TabPage1.Controls.Add(i5)
+        TabPage1.Controls.Add(i2)
+        TabPage1.Controls.Add(i7)
+        TabPage1.Controls.Add(i4)
+        TabPage1.Controls.Add(i1)
+        TabPage1.Controls.Add(Label12)
+        TabPage1.Controls.Add(ss1)
+        TabPage1.Controls.Add(u9)
+        TabPage1.Controls.Add(u6)
+        TabPage1.Controls.Add(u3)
+        TabPage1.Controls.Add(u8)
+        TabPage1.Controls.Add(u5)
+        TabPage1.Controls.Add(u2)
+        TabPage1.Controls.Add(u7)
+        TabPage1.Controls.Add(u4)
+        TabPage1.Controls.Add(u1)
+        TabPage1.Font = New Font("Segoe UI", 13.0F)
+        TabPage1.Location = New Point(4, 29)
+        TabPage1.Name = "TabPage1"
+        TabPage1.Padding = New Padding(3)
+        TabPage1.Size = New Size(832, 441)
+        TabPage1.TabIndex = 4
+        TabPage1.Text = "Сумма 3х3"
+        TabPage1.UseVisualStyleBackColor = True
+        ' 
+        ' Button17
+        ' 
+        Button17.Font = New Font("Segoe UI", 12.0F)
+        Button17.Location = New Point(3, 6)
+        Button17.Name = "Button17"
+        Button17.Size = New Size(108, 33)
+        Button17.TabIndex = 42
+        Button17.Text = "Главный"
+        Button17.UseVisualStyleBackColor = True
+        ' 
+        ' Button14
+        ' 
+        Button14.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+        Button14.Location = New Point(84, 285)
+        Button14.Name = "Button14"
+        Button14.Size = New Size(153, 36)
+        Button14.TabIndex = 34
+        Button14.Text = "с"
+        Button14.UseVisualStyleBackColor = True
+        ' 
+        ' Button13
+        ' 
+        Button13.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
+        Button13.Location = New Point(374, 285)
+        Button13.Name = "Button13"
+        Button13.Size = New Size(153, 36)
+        Button13.TabIndex = 33
+        Button13.Text = "="
+        Button13.UseVisualStyleBackColor = True
+        ' 
+        ' p9
+        ' 
+        p9.AutoSize = True
+        p9.Font = New Font("Segoe UI", 12.0F)
+        p9.Location = New Point(726, 237)
+        p9.Name = "p9"
+        p9.Size = New Size(23, 28)
+        p9.TabIndex = 32
+        p9.Text = "0"
+        ' 
+        ' p6
+        ' 
+        p6.AutoSize = True
+        p6.Font = New Font("Segoe UI", 12.0F)
+        p6.Location = New Point(726, 183)
+        p6.Name = "p6"
+        p6.Size = New Size(23, 28)
+        p6.TabIndex = 31
+        p6.Text = "0"
+        ' 
+        ' p3
+        ' 
+        p3.AutoSize = True
+        p3.Font = New Font("Segoe UI", 12.0F)
+        p3.Location = New Point(726, 130)
+        p3.Name = "p3"
+        p3.Size = New Size(23, 28)
+        p3.TabIndex = 30
+        p3.Text = "0"
+        ' 
+        ' p8
+        ' 
+        p8.AutoSize = True
+        p8.Font = New Font("Segoe UI", 12.0F)
+        p8.Location = New Point(652, 237)
+        p8.Name = "p8"
+        p8.Size = New Size(23, 28)
+        p8.TabIndex = 29
+        p8.Text = "0"
+        ' 
+        ' p5
+        ' 
+        p5.AutoSize = True
+        p5.Font = New Font("Segoe UI", 12.0F)
+        p5.Location = New Point(652, 183)
+        p5.Name = "p5"
+        p5.Size = New Size(23, 28)
+        p5.TabIndex = 28
+        p5.Text = "0"
+        ' 
+        ' p2
+        ' 
+        p2.AutoSize = True
+        p2.Font = New Font("Segoe UI", 12.0F)
+        p2.Location = New Point(652, 130)
+        p2.Name = "p2"
+        p2.Size = New Size(23, 28)
+        p2.TabIndex = 27
+        p2.Text = "0"
+        ' 
+        ' p7
+        ' 
+        p7.AutoSize = True
+        p7.Font = New Font("Segoe UI", 12.0F)
+        p7.Location = New Point(576, 237)
+        p7.Name = "p7"
+        p7.Size = New Size(23, 28)
+        p7.TabIndex = 26
+        p7.Text = "0"
+        ' 
+        ' p4
+        ' 
+        p4.AutoSize = True
+        p4.Font = New Font("Segoe UI", 12.0F)
+        p4.Location = New Point(576, 183)
+        p4.Name = "p4"
+        p4.Size = New Size(23, 28)
+        p4.TabIndex = 25
+        p4.Text = "0"
+        ' 
+        ' p1
+        ' 
+        p1.AutoSize = True
+        p1.Font = New Font("Segoe UI", 12.0F)
+        p1.Location = New Point(576, 130)
+        p1.Name = "p1"
+        p1.Size = New Size(23, 28)
+        p1.TabIndex = 24
+        p1.Text = "0"
+        ' 
+        ' Label18
+        ' 
+        Label18.AutoSize = True
+        Label18.Font = New Font("Segoe UI", 17.0F)
+        Label18.Location = New Point(533, 174)
+        Label18.Name = "Label18"
+        Label18.RightToLeft = RightToLeft.Yes
+        Label18.Size = New Size(37, 40)
+        Label18.TabIndex = 23
+        Label18.Text = "="
+        Label18.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' Label17
+        ' 
+        Label17.AutoSize = True
+        Label17.Font = New Font("Segoe UI", 17.0F)
+        Label17.Location = New Point(258, 174)
+        Label17.Name = "Label17"
+        Label17.RightToLeft = RightToLeft.Yes
+        Label17.Size = New Size(37, 40)
+        Label17.TabIndex = 22
+        Label17.Text = "+"
+        ' 
+        ' Label13
+        ' 
+        Label13.AutoSize = True
+        Label13.Font = New Font("Segoe UI", 15.0F)
+        Label13.Location = New Point(340, 176)
+        Label13.Name = "Label13"
+        Label13.RightToLeft = RightToLeft.Yes
+        Label13.Size = New Size(26, 35)
+        Label13.TabIndex = 21
+        Label13.Text = "x"
+        ' 
+        ' ss2
+        ' 
+        ss2.Font = New Font("Segoe UI", 12.0F)
+        ss2.Location = New Point(299, 180)
+        ss2.Name = "ss2"
+        ss2.Size = New Size(35, 34)
+        ss2.TabIndex = 20
+        ' 
+        ' i9
+        ' 
+        i9.Font = New Font("Segoe UI", 12.0F)
+        i9.Location = New Point(492, 234)
+        i9.Name = "i9"
+        i9.Size = New Size(35, 34)
+        i9.TabIndex = 19
+        ' 
+        ' i6
+        ' 
+        i6.Font = New Font("Segoe UI", 12.0F)
+        i6.Location = New Point(492, 180)
+        i6.Name = "i6"
+        i6.Size = New Size(35, 34)
+        i6.TabIndex = 18
+        ' 
+        ' i3
+        ' 
+        i3.Font = New Font("Segoe UI", 12.0F)
+        i3.Location = New Point(492, 127)
+        i3.Name = "i3"
+        i3.Size = New Size(35, 34)
+        i3.TabIndex = 17
+        ' 
+        ' i8
+        ' 
+        i8.Font = New Font("Segoe UI", 12.0F)
+        i8.Location = New Point(432, 234)
+        i8.Name = "i8"
+        i8.Size = New Size(35, 34)
+        i8.TabIndex = 16
+        ' 
+        ' i5
+        ' 
+        i5.Font = New Font("Segoe UI", 12.0F)
+        i5.Location = New Point(432, 180)
+        i5.Name = "i5"
+        i5.Size = New Size(35, 34)
+        i5.TabIndex = 15
+        ' 
+        ' i2
+        ' 
+        i2.Font = New Font("Segoe UI", 12.0F)
+        i2.Location = New Point(432, 127)
+        i2.Name = "i2"
+        i2.Size = New Size(35, 34)
+        i2.TabIndex = 14
+        ' 
+        ' i7
+        ' 
+        i7.Font = New Font("Segoe UI", 12.0F)
+        i7.Location = New Point(374, 234)
+        i7.Name = "i7"
+        i7.Size = New Size(35, 34)
+        i7.TabIndex = 13
+        ' 
+        ' i4
+        ' 
+        i4.Font = New Font("Segoe UI", 12.0F)
+        i4.Location = New Point(374, 180)
+        i4.Name = "i4"
+        i4.Size = New Size(35, 34)
+        i4.TabIndex = 12
+        ' 
+        ' i1
+        ' 
+        i1.Font = New Font("Segoe UI", 12.0F)
+        i1.Location = New Point(374, 127)
+        i1.Name = "i1"
+        i1.Size = New Size(35, 34)
+        i1.TabIndex = 11
+        ' 
+        ' Label12
+        ' 
+        Label12.AutoSize = True
+        Label12.Font = New Font("Segoe UI", 15.0F)
+        Label12.Location = New Point(50, 176)
+        Label12.Name = "Label12"
+        Label12.RightToLeft = RightToLeft.Yes
+        Label12.Size = New Size(26, 35)
+        Label12.TabIndex = 10
+        Label12.Text = "x"
+        ' 
+        ' ss1
+        ' 
+        ss1.Font = New Font("Segoe UI", 12.0F)
+        ss1.Location = New Point(9, 180)
+        ss1.Name = "ss1"
+        ss1.Size = New Size(35, 34)
+        ss1.TabIndex = 9
+        ' 
+        ' u9
+        ' 
+        u9.Font = New Font("Segoe UI", 12.0F)
+        u9.Location = New Point(202, 234)
+        u9.Name = "u9"
+        u9.Size = New Size(35, 34)
+        u9.TabIndex = 8
+        ' 
+        ' u6
+        ' 
+        u6.Font = New Font("Segoe UI", 12.0F)
+        u6.Location = New Point(202, 180)
+        u6.Name = "u6"
+        u6.Size = New Size(35, 34)
+        u6.TabIndex = 7
+        ' 
+        ' u3
+        ' 
+        u3.Font = New Font("Segoe UI", 12.0F)
+        u3.Location = New Point(202, 127)
+        u3.Name = "u3"
+        u3.Size = New Size(35, 34)
+        u3.TabIndex = 6
+        ' 
+        ' u8
+        ' 
+        u8.Font = New Font("Segoe UI", 12.0F)
+        u8.Location = New Point(142, 234)
+        u8.Name = "u8"
+        u8.Size = New Size(35, 34)
+        u8.TabIndex = 5
+        ' 
+        ' u5
+        ' 
+        u5.Font = New Font("Segoe UI", 12.0F)
+        u5.Location = New Point(142, 180)
+        u5.Name = "u5"
+        u5.Size = New Size(35, 34)
+        u5.TabIndex = 4
+        ' 
+        ' u2
+        ' 
+        u2.Font = New Font("Segoe UI", 12.0F)
+        u2.Location = New Point(142, 127)
+        u2.Name = "u2"
+        u2.Size = New Size(35, 34)
+        u2.TabIndex = 3
+        ' 
+        ' u7
+        ' 
+        u7.Font = New Font("Segoe UI", 12.0F)
+        u7.Location = New Point(84, 234)
+        u7.Name = "u7"
+        u7.Size = New Size(35, 34)
+        u7.TabIndex = 2
+        ' 
+        ' u4
+        ' 
+        u4.Font = New Font("Segoe UI", 12.0F)
+        u4.Location = New Point(84, 180)
+        u4.Name = "u4"
+        u4.Size = New Size(35, 34)
+        u4.TabIndex = 1
+        ' 
+        ' u1
+        ' 
+        u1.Font = New Font("Segoe UI", 12.0F)
+        u1.Location = New Point(84, 127)
+        u1.Name = "u1"
+        u1.Size = New Size(35, 34)
+        u1.TabIndex = 0
         ' 
         ' TabPage5
         ' 
-        TabPage5.BackColor = Color.Transparent
         TabPage5.Controls.Add(Button18)
         TabPage5.Controls.Add(Button15)
         TabPage5.Controls.Add(Button16)
@@ -1565,27 +1573,27 @@ Partial Class Form2
         TabPage5.Controls.Add(x7)
         TabPage5.Controls.Add(x4)
         TabPage5.Controls.Add(x1)
-        TabPage5.Font = New Font("Segoe UI", 5F)
         TabPage5.Location = New Point(4, 29)
         TabPage5.Name = "TabPage5"
         TabPage5.Padding = New Padding(3)
-        TabPage5.Size = New Size(832, 442)
+        TabPage5.Size = New Size(832, 441)
         TabPage5.TabIndex = 5
-        TabPage5.Text = "Фарқи матритсаҳои 3х3"
+        TabPage5.Text = "Минус 3х3"
+        TabPage5.UseVisualStyleBackColor = True
         ' 
         ' Button18
         ' 
-        Button18.Font = New Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(204))
+        Button18.Font = New Font("Segoe UI", 12.0F)
         Button18.Location = New Point(6, 6)
         Button18.Name = "Button18"
         Button18.Size = New Size(108, 33)
         Button18.TabIndex = 70
-        Button18.Text = "Меню"
+        Button18.Text = "Главный"
         Button18.UseVisualStyleBackColor = True
         ' 
         ' Button15
         ' 
-        Button15.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        Button15.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
         Button15.Location = New Point(94, 281)
         Button15.Name = "Button15"
         Button15.Size = New Size(153, 36)
@@ -1595,7 +1603,7 @@ Partial Class Form2
         ' 
         ' Button16
         ' 
-        Button16.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
+        Button16.Font = New Font("Segoe UI", 12.0F, FontStyle.Bold)
         Button16.Location = New Point(384, 281)
         Button16.Name = "Button16"
         Button16.Size = New Size(153, 36)
@@ -1606,7 +1614,7 @@ Partial Class Form2
         ' jj9
         ' 
         jj9.AutoSize = True
-        jj9.Font = New Font("Segoe UI", 12F)
+        jj9.Font = New Font("Segoe UI", 12.0F)
         jj9.Location = New Point(736, 233)
         jj9.Name = "jj9"
         jj9.Size = New Size(23, 28)
@@ -1616,7 +1624,7 @@ Partial Class Form2
         ' jj6
         ' 
         jj6.AutoSize = True
-        jj6.Font = New Font("Segoe UI", 12F)
+        jj6.Font = New Font("Segoe UI", 12.0F)
         jj6.Location = New Point(736, 179)
         jj6.Name = "jj6"
         jj6.Size = New Size(23, 28)
@@ -1626,7 +1634,7 @@ Partial Class Form2
         ' jj3
         ' 
         jj3.AutoSize = True
-        jj3.Font = New Font("Segoe UI", 12F)
+        jj3.Font = New Font("Segoe UI", 12.0F)
         jj3.Location = New Point(736, 126)
         jj3.Name = "jj3"
         jj3.Size = New Size(23, 28)
@@ -1636,7 +1644,7 @@ Partial Class Form2
         ' jj8
         ' 
         jj8.AutoSize = True
-        jj8.Font = New Font("Segoe UI", 12F)
+        jj8.Font = New Font("Segoe UI", 12.0F)
         jj8.Location = New Point(662, 233)
         jj8.Name = "jj8"
         jj8.Size = New Size(23, 28)
@@ -1646,7 +1654,7 @@ Partial Class Form2
         ' jj5
         ' 
         jj5.AutoSize = True
-        jj5.Font = New Font("Segoe UI", 12F)
+        jj5.Font = New Font("Segoe UI", 12.0F)
         jj5.Location = New Point(662, 179)
         jj5.Name = "jj5"
         jj5.Size = New Size(23, 28)
@@ -1656,7 +1664,7 @@ Partial Class Form2
         ' jj2
         ' 
         jj2.AutoSize = True
-        jj2.Font = New Font("Segoe UI", 12F)
+        jj2.Font = New Font("Segoe UI", 12.0F)
         jj2.Location = New Point(662, 126)
         jj2.Name = "jj2"
         jj2.Size = New Size(23, 28)
@@ -1666,7 +1674,7 @@ Partial Class Form2
         ' jj7
         ' 
         jj7.AutoSize = True
-        jj7.Font = New Font("Segoe UI", 12F)
+        jj7.Font = New Font("Segoe UI", 12.0F)
         jj7.Location = New Point(586, 233)
         jj7.Name = "jj7"
         jj7.Size = New Size(23, 28)
@@ -1676,7 +1684,7 @@ Partial Class Form2
         ' jj4
         ' 
         jj4.AutoSize = True
-        jj4.Font = New Font("Segoe UI", 12F)
+        jj4.Font = New Font("Segoe UI", 12.0F)
         jj4.Location = New Point(586, 179)
         jj4.Name = "jj4"
         jj4.Size = New Size(23, 28)
@@ -1686,7 +1694,7 @@ Partial Class Form2
         ' jj1
         ' 
         jj1.AutoSize = True
-        jj1.Font = New Font("Segoe UI", 12F)
+        jj1.Font = New Font("Segoe UI", 12.0F)
         jj1.Location = New Point(586, 126)
         jj1.Name = "jj1"
         jj1.Size = New Size(23, 28)
@@ -1696,7 +1704,7 @@ Partial Class Form2
         ' Label28
         ' 
         Label28.AutoSize = True
-        Label28.Font = New Font("Segoe UI", 17F)
+        Label28.Font = New Font("Segoe UI", 17.0F)
         Label28.Location = New Point(543, 170)
         Label28.Name = "Label28"
         Label28.RightToLeft = RightToLeft.Yes
@@ -1708,7 +1716,7 @@ Partial Class Form2
         ' Label29
         ' 
         Label29.AutoSize = True
-        Label29.Font = New Font("Segoe UI", 17F)
+        Label29.Font = New Font("Segoe UI", 17.0F)
         Label29.Location = New Point(268, 170)
         Label29.Name = "Label29"
         Label29.RightToLeft = RightToLeft.Yes
@@ -1898,16 +1906,6 @@ Partial Class Form2
         x1.Size = New Size(35, 34)
         x1.TabIndex = 35
         ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Font = New Font("Segoe UI", 20F)
-        Label5.Location = New Point(281, 174)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(36, 46)
-        Label5.TabIndex = 45
-        Label5.Text = "x"
-        ' 
         ' Form2
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -1921,16 +1919,16 @@ Partial Class Form2
         StartPosition = FormStartPosition.CenterScreen
         Text = "Matrix"
         TabControl1.ResumeLayout(False)
-        TabPage2.ResumeLayout(False)
-        TabPage2.PerformLayout()
         TabPage12.ResumeLayout(False)
         TabPage12.PerformLayout()
+        TabPage2.ResumeLayout(False)
+        TabPage2.PerformLayout()
         TabPage3.ResumeLayout(False)
         TabPage3.PerformLayout()
-        TabPage1.ResumeLayout(False)
-        TabPage1.PerformLayout()
         TabPage4.ResumeLayout(False)
         TabPage4.PerformLayout()
+        TabPage1.ResumeLayout(False)
+        TabPage1.PerformLayout()
         TabPage5.ResumeLayout(False)
         TabPage5.PerformLayout()
         ResumeLayout(False)
@@ -1960,6 +1958,7 @@ Partial Class Form2
     Friend WithEvents a3 As TextBox
     Friend WithEvents a2 As TextBox
     Friend WithEvents a1 As TextBox
+    Friend WithEvents Label5 As Label
     Friend WithEvents a9 As TextBox
     Friend WithEvents a8 As TextBox
     Friend WithEvents a7 As TextBox
@@ -2105,5 +2104,4 @@ Partial Class Form2
     Friend WithEvents r3 As TextBox
     Friend WithEvents r2 As TextBox
     Friend WithEvents r1 As TextBox
-    Friend WithEvents Label5 As Label
 End Class
