@@ -22,11 +22,9 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        components = New ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         TabControl1 = New TabControl()
         TabPage1 = New TabPage()
-        Label8 = New Label()
         Label7 = New Label()
         a4 = New TextBox()
         a3 = New TextBox()
@@ -74,6 +72,7 @@ Partial Class Form1
         Button3 = New Button()
         Label3 = New Label()
         TabPage4 = New TabPage()
+        Button18 = New Button()
         Label12 = New Label()
         Label11 = New Label()
         Button13 = New Button()
@@ -87,6 +86,7 @@ Partial Class Form1
         TextBox2 = New TextBox()
         TextBox1 = New TextBox()
         TabPage5 = New TabPage()
+        Button19 = New Button()
         Button11 = New Button()
         Button12 = New Button()
         t9 = New TextBox()
@@ -105,6 +105,7 @@ Partial Class Form1
         Label16 = New Label()
         m1 = New TextBox()
         TabPage6 = New TabPage()
+        Button20 = New Button()
         Button14 = New Button()
         Button15 = New Button()
         k4 = New TextBox()
@@ -118,6 +119,7 @@ Partial Class Form1
         Label20 = New Label()
         m3 = New TextBox()
         TabPage7 = New TabPage()
+        Button21 = New Button()
         Button16 = New Button()
         Button17 = New Button()
         n9 = New TextBox()
@@ -135,7 +137,6 @@ Partial Class Form1
         Label24 = New Label()
         Label25 = New Label()
         m4 = New TextBox()
-        Timer1 = New Timer(components)
         TabControl1.SuspendLayout()
         TabPage1.SuspendLayout()
         TabPage2.SuspendLayout()
@@ -164,7 +165,6 @@ Partial Class Form1
         ' 
         ' TabPage1
         ' 
-        TabPage1.Controls.Add(Label8)
         TabPage1.Controls.Add(Label7)
         TabPage1.Controls.Add(a4)
         TabPage1.Controls.Add(a3)
@@ -179,17 +179,8 @@ Partial Class Form1
         TabPage1.Padding = New Padding(3)
         TabPage1.Size = New Size(450, 464)
         TabPage1.TabIndex = 0
-        TabPage1.Text = "Матритсаи 2х2"
+        TabPage1.Text = "Муайянкунандаи тартиби 2"
         TabPage1.UseVisualStyleBackColor = True
-        ' 
-        ' Label8
-        ' 
-        Label8.AutoSize = True
-        Label8.Location = New Point(241, 57)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(53, 20)
-        Label8.TabIndex = 19
-        Label8.Text = "Label8"
         ' 
         ' Label7
         ' 
@@ -293,7 +284,7 @@ Partial Class Form1
         TabPage2.Padding = New Padding(3)
         TabPage2.Size = New Size(450, 464)
         TabPage2.TabIndex = 1
-        TabPage2.Text = "Матритсаи 3х3"
+        TabPage2.Text = "Муайянкунандаи тартиби 3"
         TabPage2.UseVisualStyleBackColor = True
         ' 
         ' Button7
@@ -447,7 +438,7 @@ Partial Class Form1
         TabPage3.Padding = New Padding(3)
         TabPage3.Size = New Size(450, 464)
         TabPage3.TabIndex = 2
-        TabPage3.Text = "Матритсаи 4х4"
+        TabPage3.Text = "Муайянкунандаи тартиби 4"
         TabPage3.UseVisualStyleBackColor = True
         ' 
         ' Button9
@@ -630,6 +621,7 @@ Partial Class Form1
         ' 
         ' TabPage4
         ' 
+        TabPage4.Controls.Add(Button18)
         TabPage4.Controls.Add(Label12)
         TabPage4.Controls.Add(Label11)
         TabPage4.Controls.Add(Button13)
@@ -647,8 +639,18 @@ Partial Class Form1
         TabPage4.Padding = New Padding(3)
         TabPage4.Size = New Size(450, 464)
         TabPage4.TabIndex = 3
-        TabPage4.Text = "Минор 2х2"
+        TabPage4.Text = "Минори муайянкунандаи тартиби 2"
         TabPage4.UseVisualStyleBackColor = True
+        ' 
+        ' Button18
+        ' 
+        Button18.Font = New Font("Segoe UI", 12F)
+        Button18.Location = New Point(6, 6)
+        Button18.Name = "Button18"
+        Button18.Size = New Size(106, 35)
+        Button18.TabIndex = 27
+        Button18.Text = "Меню"
+        Button18.UseVisualStyleBackColor = True
         ' 
         ' Label12
         ' 
@@ -761,6 +763,7 @@ Partial Class Form1
         ' 
         ' TabPage5
         ' 
+        TabPage5.Controls.Add(Button19)
         TabPage5.Controls.Add(Button11)
         TabPage5.Controls.Add(Button12)
         TabPage5.Controls.Add(t9)
@@ -783,8 +786,18 @@ Partial Class Form1
         TabPage5.Padding = New Padding(3)
         TabPage5.Size = New Size(450, 464)
         TabPage5.TabIndex = 4
-        TabPage5.Text = "Минори 3х3"
+        TabPage5.Text = "Минори муайянкунандаи тартиби 3"
         TabPage5.UseVisualStyleBackColor = True
+        ' 
+        ' Button19
+        ' 
+        Button19.Font = New Font("Segoe UI", 12F)
+        Button19.Location = New Point(3, 6)
+        Button19.Name = "Button19"
+        Button19.Size = New Size(106, 35)
+        Button19.TabIndex = 58
+        Button19.Text = "Меню"
+        Button19.UseVisualStyleBackColor = True
         ' 
         ' Button11
         ' 
@@ -939,6 +952,7 @@ Partial Class Form1
         ' 
         ' TabPage6
         ' 
+        TabPage6.Controls.Add(Button20)
         TabPage6.Controls.Add(Button14)
         TabPage6.Controls.Add(Button15)
         TabPage6.Controls.Add(k4)
@@ -956,12 +970,22 @@ Partial Class Form1
         TabPage6.Padding = New Padding(3)
         TabPage6.Size = New Size(450, 464)
         TabPage6.TabIndex = 5
-        TabPage6.Text = "Пуркунандаи 2х2"
+        TabPage6.Text = "Пурк. алг. муайянкунандаи тартиби 2"
         TabPage6.UseVisualStyleBackColor = True
+        ' 
+        ' Button20
+        ' 
+        Button20.Font = New Font("Segoe UI", 12F)
+        Button20.Location = New Point(8, 3)
+        Button20.Name = "Button20"
+        Button20.Size = New Size(106, 35)
+        Button20.TabIndex = 45
+        Button20.Text = "Меню"
+        Button20.UseVisualStyleBackColor = True
         ' 
         ' Button14
         ' 
-        Button14.Location = New Point(154, 286)
+        Button14.Location = New Point(157, 312)
         Button14.Name = "Button14"
         Button14.Size = New Size(62, 43)
         Button14.TabIndex = 44
@@ -971,7 +995,7 @@ Partial Class Form1
         ' Button15
         ' 
         Button15.Font = New Font("Segoe UI", 12F)
-        Button15.Location = New Point(235, 286)
+        Button15.Location = New Point(238, 312)
         Button15.Name = "Button15"
         Button15.Size = New Size(62, 43)
         Button15.TabIndex = 43
@@ -981,7 +1005,7 @@ Partial Class Form1
         ' k4
         ' 
         k4.Font = New Font("Segoe UI", 12F)
-        k4.Location = New Point(260, 233)
+        k4.Location = New Point(263, 259)
         k4.Name = "k4"
         k4.Size = New Size(37, 34)
         k4.TabIndex = 42
@@ -989,7 +1013,7 @@ Partial Class Form1
         ' k3
         ' 
         k3.Font = New Font("Segoe UI", 12F)
-        k3.Location = New Point(154, 232)
+        k3.Location = New Point(157, 258)
         k3.Name = "k3"
         k3.Size = New Size(37, 34)
         k3.TabIndex = 41
@@ -997,7 +1021,7 @@ Partial Class Form1
         ' k2
         ' 
         k2.Font = New Font("Segoe UI", 12F)
-        k2.Location = New Point(260, 137)
+        k2.Location = New Point(263, 163)
         k2.Name = "k2"
         k2.Size = New Size(37, 34)
         k2.TabIndex = 40
@@ -1005,7 +1029,7 @@ Partial Class Form1
         ' k1
         ' 
         k1.Font = New Font("Segoe UI", 12F)
-        k1.Location = New Point(154, 136)
+        k1.Location = New Point(157, 162)
         k1.Name = "k1"
         k1.Size = New Size(37, 34)
         k1.TabIndex = 39
@@ -1014,7 +1038,7 @@ Partial Class Form1
         ' 
         j3.AutoSize = True
         j3.Font = New Font("Segoe UI", 12F)
-        j3.Location = New Point(201, 48)
+        j3.Location = New Point(204, 74)
         j3.Name = "j3"
         j3.Size = New Size(23, 28)
         j3.TabIndex = 38
@@ -1024,7 +1048,7 @@ Partial Class Form1
         ' 
         Label17.AutoSize = True
         Label17.Font = New Font("Segoe UI", 12F)
-        Label17.Location = New Point(125, 48)
+        Label17.Location = New Point(128, 74)
         Label17.Name = "Label17"
         Label17.Size = New Size(75, 28)
         Label17.TabIndex = 37
@@ -1034,7 +1058,7 @@ Partial Class Form1
         ' 
         Label18.AutoSize = True
         Label18.Font = New Font("Segoe UI", 15F)
-        Label18.Location = New Point(79, 48)
+        Label18.Location = New Point(82, 74)
         Label18.Name = "Label18"
         Label18.Size = New Size(23, 35)
         Label18.TabIndex = 36
@@ -1044,7 +1068,7 @@ Partial Class Form1
         ' 
         Label19.AutoSize = True
         Label19.Font = New Font("Segoe UI", 15F)
-        Label19.Location = New Point(26, 48)
+        Label19.Location = New Point(29, 74)
         Label19.Name = "Label19"
         Label19.Size = New Size(23, 35)
         Label19.TabIndex = 35
@@ -1054,7 +1078,7 @@ Partial Class Form1
         ' 
         Label20.AutoSize = True
         Label20.Font = New Font("Segoe UI", 15F)
-        Label20.Location = New Point(2, 48)
+        Label20.Location = New Point(5, 74)
         Label20.Name = "Label20"
         Label20.Size = New Size(31, 35)
         Label20.TabIndex = 34
@@ -1063,13 +1087,14 @@ Partial Class Form1
         ' m3
         ' 
         m3.Font = New Font("Segoe UI", 12F)
-        m3.Location = New Point(47, 50)
+        m3.Location = New Point(50, 76)
         m3.Name = "m3"
         m3.Size = New Size(37, 34)
         m3.TabIndex = 33
         ' 
         ' TabPage7
         ' 
+        TabPage7.Controls.Add(Button21)
         TabPage7.Controls.Add(Button16)
         TabPage7.Controls.Add(Button17)
         TabPage7.Controls.Add(n9)
@@ -1092,8 +1117,18 @@ Partial Class Form1
         TabPage7.Padding = New Padding(3)
         TabPage7.Size = New Size(450, 464)
         TabPage7.TabIndex = 6
-        TabPage7.Text = "Пуркунандаи 3х3"
+        TabPage7.Text = "Пурк. алг. муайянкунандаи тартиби 3"
         TabPage7.UseVisualStyleBackColor = True
+        ' 
+        ' Button21
+        ' 
+        Button21.Font = New Font("Segoe UI", 12F)
+        Button21.Location = New Point(3, 6)
+        Button21.Name = "Button21"
+        Button21.Size = New Size(106, 35)
+        Button21.TabIndex = 69
+        Button21.Text = "Меню"
+        Button21.UseVisualStyleBackColor = True
         ' 
         ' Button16
         ' 
@@ -1253,7 +1288,6 @@ Partial Class Form1
         ClientSize = New Size(457, 488)
         Controls.Add(TabControl1)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
-        MaximumSize = New Size(475, 535)
         MinimumSize = New Size(475, 535)
         Name = "Form1"
         StartPosition = FormStartPosition.CenterScreen
@@ -1369,8 +1403,6 @@ Partial Class Form1
     Friend WithEvents Label20 As Label
     Friend WithEvents m3 As TextBox
     Friend WithEvents TabPage7 As TabPage
-    Friend WithEvents Timer1 As Timer
-    Friend WithEvents Label8 As Label
     Friend WithEvents Button16 As Button
     Friend WithEvents Button17 As Button
     Friend WithEvents n9 As TextBox
@@ -1388,5 +1420,9 @@ Partial Class Form1
     Friend WithEvents Label24 As Label
     Friend WithEvents Label25 As Label
     Friend WithEvents m4 As TextBox
+    Friend WithEvents Button18 As Button
+    Friend WithEvents Button19 As Button
+    Friend WithEvents Button20 As Button
+    Friend WithEvents Button21 As Button
 
 End Class

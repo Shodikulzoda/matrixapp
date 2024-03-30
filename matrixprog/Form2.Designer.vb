@@ -25,6 +25,7 @@ Partial Class Form2
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         TabControl1 = New TabControl()
         TabPage2 = New TabPage()
+        Label5 = New Label()
         Button10 = New Button()
         Button7 = New Button()
         Button2 = New Button()
@@ -192,7 +193,6 @@ Partial Class Form2
         x7 = New TextBox()
         x4 = New TextBox()
         x1 = New TextBox()
-        Label5 = New Label()
         TabControl1.SuspendLayout()
         TabPage2.SuspendLayout()
         TabPage12.SuspendLayout()
@@ -258,6 +258,16 @@ Partial Class Form2
         TabPage2.TabIndex = 1
         TabPage2.Text = "Зарби матритсахои 3х3"
         TabPage2.UseVisualStyleBackColor = True
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Segoe UI", 20F)
+        Label5.Location = New Point(281, 174)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(36, 46)
+        Label5.TabIndex = 45
+        Label5.Text = "x"
         ' 
         ' Button10
         ' 
@@ -567,7 +577,7 @@ Partial Class Form2
         TabPage12.Padding = New Padding(3)
         TabPage12.Size = New Size(832, 442)
         TabPage12.TabIndex = 0
-        TabPage12.Text = "Зарби матритсахои 2х2"
+        TabPage12.Text = "Зарби матритсаи 2х2"
         TabPage12.UseVisualStyleBackColor = True
         ' 
         ' Button9
@@ -752,7 +762,7 @@ Partial Class Form2
         TabPage3.Padding = New Padding(3)
         TabPage3.Size = New Size(832, 442)
         TabPage3.TabIndex = 2
-        TabPage3.Text = "Ҷаъми матритсаҳои 2х2"
+        TabPage3.Text = "Ҷаъми матритсаи 2х2"
         TabPage3.UseVisualStyleBackColor = True
         ' 
         ' Button11
@@ -983,7 +993,7 @@ Partial Class Form2
         TabPage1.Padding = New Padding(3)
         TabPage1.Size = New Size(832, 442)
         TabPage1.TabIndex = 4
-        TabPage1.Text = "Ҷаъми матритсаҳои 3х3"
+        TabPage1.Text = "Ҷаъми матритсаи тартиби 3х3"
         TabPage1.UseVisualStyleBackColor = True
         ' 
         ' Button17
@@ -1339,7 +1349,7 @@ Partial Class Form2
         TabPage4.Padding = New Padding(3)
         TabPage4.Size = New Size(832, 442)
         TabPage4.TabIndex = 3
-        TabPage4.Text = "Фарқи матритсаҳои 2х2"
+        TabPage4.Text = "Фарқи матритсаи тартиби 2х2"
         TabPage4.UseVisualStyleBackColor = True
         ' 
         ' Button4
@@ -1571,7 +1581,7 @@ Partial Class Form2
         TabPage5.Padding = New Padding(3)
         TabPage5.Size = New Size(832, 442)
         TabPage5.TabIndex = 5
-        TabPage5.Text = "Фарқи матритсаҳои 3х3"
+        TabPage5.Text = "Фарқи матритсаи тартиби 3х3"
         ' 
         ' Button18
         ' 
@@ -1897,16 +1907,6 @@ Partial Class Form2
         x1.Name = "x1"
         x1.Size = New Size(35, 34)
         x1.TabIndex = 35
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Font = New Font("Segoe UI", 20F)
-        Label5.Location = New Point(281, 174)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(36, 46)
-        Label5.TabIndex = 45
-        Label5.Text = "x"
         ' 
         ' Form2
         ' 

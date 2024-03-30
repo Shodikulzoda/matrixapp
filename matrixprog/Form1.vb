@@ -57,7 +57,7 @@ Public Class Form1
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        Me.Hide()
+        Hide()
         Form3.Show()
     End Sub
 
@@ -339,6 +339,28 @@ Public Class Form1
         Next
         j3.Text = "0"
     End Sub
+
+    Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
+        Hide()
+        Form3.Show()
+    End Sub
+
+    Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
+        Hide()
+        Form3.Show()
+    End Sub
+
+    Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
+        Hide()
+        Form3.Show()
+    End Sub
+
+    Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
+        Hide()
+        Form3.Show()
+    End Sub
+
+
 End Class
 
 
